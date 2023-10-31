@@ -1,0 +1,18 @@
+# atividade 2 - exercicio 1
+# Aluno: Carlos Eduardo Machado do Prado
+# Online Python - IDE, Editor, Compiler, Interpreter
+# Python ver. 3
+
+
+
+def sum(dias):
+    return ()
+
+dias = int(input('Digite sua idade em dias: '))
+
+  
+print(f'voce tem {(dias // 365)} anos')
+print(f'voce tem {(dias % 365 // 30)} meses')
+print(f'voce tem {(dias % 365 % 30 / 30)} dias')    
+
+#fim
