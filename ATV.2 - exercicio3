@@ -1,0 +1,21 @@
+# atividade 2 - exercicio 3
+# Aluno: Carlos Eduardo Machado do Prado
+# Online Python - IDE, Editor, Compiler, Interpreter
+# Python ver. 3
+
+
+def sum(a, b, c):
+    return ()
+
+a = int(input('Digite o Valor de A: '))
+b = int(input('Digite o Valor de B: '))
+c = int(input('Digite o Valor de C: '))
+
+if a < b and a < c:
+    print(f" O menor número digitado foi {a}. ")
+elif b < a and b < c:
+    print(f"O menor número digitado foi {b}.")
+else:
+    print(f"O menor número digitado foi {c}.")    
+
+#fim
