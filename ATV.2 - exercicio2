@@ -1,0 +1,22 @@
+# atividade 2 - exercicio 2
+# Aluno: Carlos Eduardo Machado do Prado
+# Online Python - IDE, Editor, Compiler, Interpreter
+# Python ver. 3
+
+
+
+def sum(a, b, c):
+    return ()
+
+a = int(input('Digite o Valor de a: '))
+b = int(input('Digite o Valor de b: '))
+c = int(input('Digite o Valor de c: '))
+
+if(a > b + c): 
+    print ('Os valoress nÃ£o formam trinagulo algum')
+else: 
+    print('Os valores formam um triagulo')
+
+    
+
+#fim
