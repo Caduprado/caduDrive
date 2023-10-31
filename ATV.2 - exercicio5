@@ -1,0 +1,15 @@
+# atividade 2 - exercicio 5
+# Aluno: Carlos Eduardo Machado do Prado
+# Online Python - IDE, Editor, Compiler, Interpreter
+# Python ver. 3
+
+def sum(frase):
+    return ()
+
+
+frase = str(input('Digite uma frase: '))
+    print(' Você digitou: {}'.format(frase))
+        string = frase[::-1]
+    print('A frase que você digitou invertida fica: {}'.format(string))
+
+#fim
