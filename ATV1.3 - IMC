@@ -1,0 +1,45 @@
+from tkinter import*
+
+janela = Tk()
+janela.title("Cálculo do IMC - Indice de Massa Corporal")
+janela.geometry('420x180')
+
+def calculo():
+
+    imc = (entradaP / (entradaA * entradaA))
+    Resultado = Label (janela, text = imc)
+    Resultado.grid (column = 2, row = 10)
+
+Nome = Label (janela, text = "Nome do Paciente")
+Nome.grid (column = 0, row = 2)
+entradaN = Entry(janela,width=35)
+entradaN.grid(column=2, row=2)
+
+Endereco = Label (janela, text = "Endereço Completo")
+Endereco.grid (column = 0, row = 4)
+entradaE = Entry(janela,width=35)
+entradaE.grid(column=2, row=4)
+
+Altura = Label (janela, text = "Altura (cm)")
+Altura.grid (column = 0, row = 6)
+entradaA = Entry(janela,width=35)
+entradaA.grid(column=2, row=6)
+
+Peso = Label (janela, text = "Peso (kg)")
+Peso.grid (column = 0, row = 8)
+entradaP = Entry(janela,width=35)
+entradaP.grid(column=2, row=8)
+
+Resultado = Label (janela, text = "Resultado")
+Resultado.grid (column = 0, row = 10)
+
+botao1 = Button(janela, text="   Calcular   ", command = calculo)
+botao1.grid(column=0, row=16)
+
+botao2 = Button(janela, text="   Reiniciar   ")
+botao2.grid(column=2, row=16)
+
+botao3 = Button(janela, text="       Sair       ", command = exit)
+botao3.grid(column=6, row=17)
+
+janela.mainloop()
