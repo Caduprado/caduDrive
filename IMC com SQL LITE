@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS usuario(
     imc TEXT NOT NULL,
     msg TEXT NOT NULL
 )
-''')
+)
 
 class Cal_imc:
     def __init__(self):
